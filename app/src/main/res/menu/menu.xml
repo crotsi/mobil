@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item0"
+        android:title="KAYIT"
+        android:icon="@drawable/kayit2"/>
+
+    <item
+        android:id="@+id/item1"
+        android:title="GİRİŞ"
+        android:icon="@drawable/giris2"/>
+
+
+</menu>

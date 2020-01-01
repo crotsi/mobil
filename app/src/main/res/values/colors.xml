@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="zayif">#8BC34A</color>
+    <color name="durum_ideal">#CDDC39</color>
+    <color name="durum_normalden_fazla">#FF9800</color>
+    <color name="durum_fazla_kilolu">#E65100</color>
+    <color name="durum_obez">#DD2C00</color>
+    <color name="durum_doktora">#D50000</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+
+
+    <color name="black">#000000</color>
+
+    <color name="royalBlue1">#1E90FF</color>
+    <color name="royalBlue2">#1C86EE</color>
+    <color name="royalBlue3">#1874CD</color>
+    <color name="royalBlue4">#104e8b</color>
+    <color name="PaleVioletRed1">#ff82ab</color>
+    <color name="PaleVioletRed2">#ee799f</color>
+    <color name="PaleVioletRed3">#cd6889</color>
+    <color name="PaleVioletRed4">#8b475d</color>
+    <color name="slategray">#708090</color>
+
+</resources>

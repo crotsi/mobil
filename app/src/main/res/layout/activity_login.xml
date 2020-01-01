@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:textSize="20dp"
+            android:text="Kullanıcı adı ve şifrenizi aşağıda belirtilen alana giriniz."
+            ></TextView>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:padding="30dp"
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kullanıcı adı"
+            app:met_baseColor="#00f"
+            app:met_floatingLabel="highlight"
+            android:visibility="visible"
+            android:textSize="30dp"
+            app:met_iconLeft="@android:drawable/star_big_off"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:padding="30dp"
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"
+            app:met_baseColor="#00f"
+            app:met_floatingLabel="highlight"
+            android:textSize="30dp"
+            android:visibility="visible"
+            android:inputType="textPassword"
+            app:met_iconLeft="@android:drawable/ic_delete"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="105dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="10dp"
+            android:background="#4CAF50"
+            android:text="GİRİŞ "></Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

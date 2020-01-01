@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:text="Lütfen kayıtlı değilseniz kayıt olunuz. Mevcut bir kaydınız var ise giriş butonuna basınız."
+            ></TextView>
+
+        <LinearLayout
+            android:id="@+id/kayit_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:padding="20dp"
+            android:id="@+id/kullanici_adi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kullanıcı adı"
+            app:met_baseColor="#00f"
+            app:met_floatingLabel="highlight"
+            android:visibility="visible"
+            android:textSize="30dp"
+            app:met_iconLeft="@android:drawable/star_big_off"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:padding="20dp"
+            android:id="@+id/sifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"
+            app:met_baseColor="#00f"
+            app:met_floatingLabel="highlight"
+            android:textSize="30dp"
+            android:inputType="textPassword"
+            android:visibility="visible"
+            app:met_iconLeft="@android:drawable/ic_delete"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:padding="20dp"
+            android:id="@+id/sifre2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre Onay"
+            app:met_baseColor="#00f"
+            app:met_floatingLabel="highlight"
+            android:textSize="30dp"
+            android:inputType="textPassword"
+            android:visibility="visible"
+            app:met_iconLeft="@android:drawable/ic_delete"
+            />
+
+        <Button
+            android:id="@+id/kayit"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:textSize="25dp"
+            android:background="#4CAF50"
+            android:text="KAYIT OL"></Button>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/giris"
+            android:visibility="visible"
+            android:layout_width="105dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="5dp"
+            android:background="#4CAF50"
+            android:text="GİRİŞ"></Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

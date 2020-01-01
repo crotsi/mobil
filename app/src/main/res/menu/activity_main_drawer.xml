@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/kaydetme"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Kayıt Ekle" />
+        <item
+            android:id="@+id/listeleme"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Listeleme" />
+
+        <item
+            android:id="@+id/sayacmenu"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sayac Başlat" />
+<!--        <item-->
+<!--            android:id="@+id/nav_tools"-->
+<!--            android:icon="@drawable/ic_menu_manage"-->
+<!--            android:title="@string/menu_tools" />-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/projehakkinda"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Proje hakkında" />
+            <item
+                android:id="@+id/benkimim"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ben Kimim" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp"
+        android:paddingBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <TableLayout
+                android:id="@+id/detaybilgilertablo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/hosgeldin"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:layout_weight="2"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center_vertical"
+                        android:text="sssssssssssssssss" />
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <RelativeLayout
+                        android:id="@+id/hesaplama"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="center"
+                            android:src="@drawable/uyari" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/xml_textview_rectangle_mavi"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="2dp"
+                            android:text="Hesaplama Kaydet"
+                            android:textAllCaps="true"
+                            android:textColor="#000" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/resimovalarkakirmizi" />
+                    </RelativeLayout>
+
+
+
+
+                    <RelativeLayout
+                        android:id="@+id/listeleme"
+                        android:layout_width="0dip"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="center"
+                            android:src="@drawable/uyari" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/xml_textview_rectangle_mavi"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="2dp"
+                            android:text="Eklenmiş Kayıtlar"
+                            android:textAllCaps="true"
+                            android:textColor="#000" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/resimovalarkakirmizi" />
+                    </RelativeLayout>
+                </TableRow>
+
+
+
+
+
+                <TableRow>
+
+
+
+                    <RelativeLayout
+                        android:id="@+id/sayfa1"
+                        android:layout_width="0dip"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="center"
+                            android:src="@drawable/uyari" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/xml_textview_rectangle_mavi"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="2dp"
+                            android:text="Sayaç Başlat"
+                            android:textAllCaps="true"
+                            android:textColor="#000" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/resimovalarkakirmizi" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/benkimim"
+                        android:layout_width="0dip"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="center"
+                            android:src="@drawable/uyari" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/xml_textview_rectangle_mavi"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="2dp"
+                            android:text="ben Kimim"
+                            android:textAllCaps="true"
+                            android:textColor="#000" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/resimovalarkakirmizi" />
+                    </RelativeLayout>
+
+
+                </TableRow>
+
+                <TableRow>
+
+
+
+                    <RelativeLayout
+                        android:id="@+id/proje"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="center"
+                            android:src="@drawable/uyari" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/xml_textview_rectangle_mavi"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="2dp"
+                            android:text="Proje Hakkında"
+                            android:textAllCaps="true"
+                            android:textColor="#fff" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/resimovalarkakirmizi" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/sayfa2"
+                        android:layout_width="0dip"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="center"
+                            android:src="@drawable/uyari" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/xml_textview_rectangle_mavi"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="2dp"
+                            android:text="Sayfa2"
+                            android:textAllCaps="true"
+                            android:textColor="#000" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/resimovalarkakirmizi" />
+                    </RelativeLayout>
+
+
+                </TableRow>
+
+
+
+
+
+                <TableRow>
+
+
+
+                </TableRow>
+
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

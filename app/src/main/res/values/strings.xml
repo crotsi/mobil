@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">can_odev</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+
+    <string name="Bay">Bay</string>
+    <string name="Bayan">Bayan</string>
+    <string name="boy_tv">Boy</string>
+    <string name="kilo_tv">Kilo</string>
+    <string name="cinsiyet_tv">Cinsiyet</string>
+    <string name="ideal_kilo_tv">İdeal Kilo</string>
+    <string name="durum">Durum</string>
+
+    <string name="zayif">Zayıf Durumdasınız</string>
+    <string name="ideal">İdeal Durumdasınız</string>
+    <string name="normalden_fazla">Normalde fazla kilodasınız</string>
+    <string name="fazla_kilolu">Fazla kilolusunuz</string>
+    <string name="obez">Obezsiniz</string>
+    <string name="doktora">Acilen doktora gitmelisiniz</string>
+</resources>
